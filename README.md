@@ -1,10 +1,8 @@
-# clone-tabnews
-
 # Clone TabNews
 
 Implementação progressiva de um clone do [TabNews](https://www.tabnews.com.br/) como parte do curso [curso.dev](https://curso.dev), ministrado por Filipe Deschamps. O projeto é desenvolvido de forma incremental, módulo a módulo, simulando o ciclo completo de construção de uma aplicação web Fullstack moderna — desde a configuração da infraestrutura local até o deploy em produção, passando por testes automatizados e integração contínua.
 
-🔗 **Deploy em produção:** [clone-tabnews-dusky-psi-45.vercel.app](https://clone-tabnews-dusky-psi-45.vercel.app)
+🔗 **Acesse o projeto:** [v1tec.com.br](https://v1tec.com.br) _(em desenvolvimento — funcionalidades sendo adicionadas progressivamente)_
 
 ---
 
@@ -33,7 +31,7 @@ Este repositório acompanha cada etapa desse processo, e o histórico de commits
 
 - **[Docker](https://www.docker.com/)** e **Docker Compose** — para subir o ambiente local de forma reproduzível
 - **[GitHub Actions](https://github.com/features/actions)** — pipeline de CI/CD com execução automática de testes a cada Pull Request
-- **[Vercel](https://vercel.com/)** — plataforma de deploy em produção
+- **[Vercel](https://vercel.com/)** — plataforma de deploy em produção, com domínio próprio configurado (v1tec.com.br)
 
 ### Qualidade de código
 
@@ -75,6 +73,7 @@ clone-tabnews/
 - [x] **Testes automatizados** com Jest cobrindo endpoints e integrações
 - [x] **Pipeline de CI/CD** com GitHub Actions, executando testes a cada Pull Request
 - [x] **Deploy contínuo** em produção via Vercel
+- [x] **Domínio próprio configurado** ([v1tec.com.br](https://v1tec.com.br)) com DNS apontado para a Vercel
 
 ---
 
@@ -174,6 +173,7 @@ O [curso.dev](https://curso.dev) é um curso de desenvolvimento web ministrado p
 
 - 🐙 GitHub: [@vitaa1](https://github.com/vitaa1)
 - 💼 LinkedIn: [jose-vitor](https://linkedin.com/in/jose-vitor)
+- 🌐 Site: [v1tec.com.br](https://v1tec.com.br)
 - 📧 E-mail: vitorjose1231@gmail.com
 
 ---
