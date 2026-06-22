@@ -1,3 +1,4 @@
+/* global Promise */
 const { spawn } = require("child_process");
 
 const isWindows = process.platform === "win32";
