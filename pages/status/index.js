@@ -34,10 +34,10 @@ function DataBaseStatus() {
     refreshInterval: 2000,
   });
 
-  let dataBaseInformation = "Carregando...";
+  let dataBaseStatusInformation = "Carregando...";
 
   if (!isLoading && data) {
-    dataBaseInformation = (
+    dataBaseStatusInformation = (
       <>
         <div>Versão: {data.dependencies.database.version}</div>
         <div>
@@ -48,12 +48,12 @@ function DataBaseStatus() {
         </div>
       </>
     );
-
-    return (
-      <>
-        <h2>Banco de dados</h2>
-        <div>{dataBaseInformation}</div>
-      </>
-    );
   }
+
+  return (
+    <>
+      <h2>Banco de dados</h2>
+      <div>{dataBaseStatusInformation}</div>
+    </>
+  );
 }
